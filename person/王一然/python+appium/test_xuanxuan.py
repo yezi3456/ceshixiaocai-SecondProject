@@ -8,8 +8,8 @@ class XuanxuanTest():
         cap = {
             "platformName": "Android",
             "deviceName": "127.0.0.1:62001",
-            "appPackage": "",
-            "appActivity": "",
+            "appPackage": "com.cnezsoft.xxm",
+            "appActivity": ".MainActivity",
             "noReset": True
         }
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", cap)
